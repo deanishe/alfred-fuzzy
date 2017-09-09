@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>net.deanishe.alfred.fuzzy</string>
+	<key>connections</key>
+	<dict>
+		<key>08C8E84F-D822-49B3-9ECD-87F71DBCD4A3</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>98B11330-54C9-48C1-85EC-48709365D828</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<true/>
+			</dict>
+		</array>
+		<key>251A4DB5-A272-4BBE-B11E-CAE1923DA259</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>53BBDAAF-6AFF-4AF3-85CC-C464A4DD09F4</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>98B11330-54C9-48C1-85EC-48709365D828</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>251A4DB5-A272-4BBE-B11E-CAE1923DA259</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Dean Jackson</string>
+	<key>description</key>
+	<string>Demonstrate Fuzzy Matching</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Fuzzy Demo</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>fixedorder</key>
+				<false/>
+				<key>items</key>
+				<string>[{"title":"Standard Ebooks","arg":"books.json","subtitle":"116 books from StandardEbooks.org"},{"title":"Liverpool Players","arg":"lfc.json","subtitle":"740 football players"},{"title":"German Ebooks","arg":"german_books.json","subtitle":"2048 books from Gutenberg.org"},{"title":"French Ebooks","arg":"french_books.json","subtitle":"3543 books from Gutenberg.org"}]</string>
+				<key>keyword</key>
+				<string>fuzz</string>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Demonstration of fuzzy search in Script Filters</string>
+				<key>title</key>
+				<string>Fuzzy Match Demo</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.listfilter</string>
+			<key>uid</key>
+			<string>08C8E84F-D822-49B3-9ECD-87F71DBCD4A3</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Loading data…</string>
+				<key>script</key>
+				<string># export user query for fuzzy.py
+export query="$1"
+
+# call `cat $filename` via fuzzy.py script
+./fuzzy.py cat $filename</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>251A4DB5-A272-4BBE-B11E-CAE1923DA259</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>53BBDAAF-6AFF-4AF3-85CC-C464A4DD09F4</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>variables</key>
+				<dict>
+					<key>filename</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>98B11330-54C9-48C1-85EC-48709365D828</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>Fuzzy Demo
+==========
+
+This workflow demonstrates the usage of the fuzzy.py helper script for Alfred 3 Script Filters.
+
+The script replaces the option "Alfred filters results" with a fuzzy search.</string>
+	<key>uidata</key>
+	<dict>
+		<key>08C8E84F-D822-49B3-9ECD-87F71DBCD4A3</key>
+		<dict>
+			<key>note</key>
+			<string>Choose dataset to search</string>
+			<key>xpos</key>
+			<integer>40</integer>
+			<key>ypos</key>
+			<integer>30</integer>
+		</dict>
+		<key>251A4DB5-A272-4BBE-B11E-CAE1923DA259</key>
+		<dict>
+			<key>note</key>
+			<string>Fuzzy filter dataset</string>
+			<key>xpos</key>
+			<integer>330</integer>
+			<key>ypos</key>
+			<integer>30</integer>
+		</dict>
+		<key>53BBDAAF-6AFF-4AF3-85CC-C464A4DD09F4</key>
+		<dict>
+			<key>xpos</key>
+			<integer>510</integer>
+			<key>ypos</key>
+			<integer>30</integer>
+		</dict>
+		<key>98B11330-54C9-48C1-85EC-48709365D828</key>
+		<dict>
+			<key>note</key>
+			<string>Set filename and clear query</string>
+			<key>xpos</key>
+			<integer>230</integer>
+			<key>ypos</key>
+			<integer>60</integer>
+		</dict>
+	</dict>
+	<key>version</key>
+	<string>0.1</string>
+	<key>webaddress</key>
+	<string>https://github.com/deanishe/alfred-fuzzy</string>
+</dict>
+</plist>

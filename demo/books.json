@@ -1,0 +1,700 @@
+{
+  "items": [
+    {
+      "arg": "https://standardebooks.org/ebooks/abraham-merritt/the-moon-pool", 
+      "uid": "https://standardebooks.org/ebooks/abraham-merritt/the-moon-pool", 
+      "subtitle": "Abraham Merritt", 
+      "title": "The Moon Pool"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/agatha-christie/the-mysterious-affair-at-styles", 
+      "uid": "https://standardebooks.org/ebooks/agatha-christie/the-mysterious-affair-at-styles", 
+      "subtitle": "Agatha Christie", 
+      "title": "The Mysterious Affair at Styles"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/agatha-christie/the-secret-adversary", 
+      "uid": "https://standardebooks.org/ebooks/agatha-christie/the-secret-adversary", 
+      "subtitle": "Agatha Christie", 
+      "title": "The Secret Adversary"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/alfred-lord-tennyson/idylls-of-the-king/gustave-dore", 
+      "uid": "https://standardebooks.org/ebooks/alfred-lord-tennyson/idylls-of-the-king/gustave-dore", 
+      "subtitle": "Alfred, Lord Tennyson", 
+      "title": "Idylls of the King"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/algis-budrys/short-fiction", 
+      "uid": "https://standardebooks.org/ebooks/algis-budrys/short-fiction", 
+      "subtitle": "Algis Budrys", 
+      "title": "Short Fiction"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/anton-chekhov/short-fiction/constance-garnett", 
+      "uid": "https://standardebooks.org/ebooks/anton-chekhov/short-fiction/constance-garnett", 
+      "subtitle": "Anton Chekhov", 
+      "title": "Short Fiction"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/anton-chekhov/the-duel/constance-garnett", 
+      "uid": "https://standardebooks.org/ebooks/anton-chekhov/the-duel/constance-garnett", 
+      "subtitle": "Anton Chekhov", 
+      "title": "The Duel"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/apsley-cherry-garrard/the-worst-journey-in-the-world", 
+      "uid": "https://standardebooks.org/ebooks/apsley-cherry-garrard/the-worst-journey-in-the-world", 
+      "subtitle": "Apsley Cherry-Garrard", 
+      "title": "The Worst Journey in the World"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/arthur-machen/short-fiction", 
+      "uid": "https://standardebooks.org/ebooks/arthur-machen/short-fiction", 
+      "subtitle": "Arthur Machen", 
+      "title": "Short Fiction"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/august-strindberg/the-red-room/ellie-schleussner", 
+      "uid": "https://standardebooks.org/ebooks/august-strindberg/the-red-room/ellie-schleussner", 
+      "subtitle": "August Strindberg", 
+      "title": "The Red Room"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/benjamin-franklin/the-autobiography-of-benjamin-franklin", 
+      "uid": "https://standardebooks.org/ebooks/benjamin-franklin/the-autobiography-of-benjamin-franklin", 
+      "subtitle": "Benjamin Franklin", 
+      "title": "The Autobiography of Benjamin Franklin"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/booth-tarkington/the-magnificent-ambersons", 
+      "uid": "https://standardebooks.org/ebooks/booth-tarkington/the-magnificent-ambersons", 
+      "subtitle": "Booth Tarkington", 
+      "title": "The Magnificent Ambersons"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/bram-stoker/dracula", 
+      "uid": "https://standardebooks.org/ebooks/bram-stoker/dracula", 
+      "subtitle": "Bram Stoker", 
+      "title": "Dracula"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/charles-dickens/david-copperfield", 
+      "uid": "https://standardebooks.org/ebooks/charles-dickens/david-copperfield", 
+      "subtitle": "Charles Dickens", 
+      "title": "David Copperfield"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/c-j-cutcliffe-hyne/the-lost-continent", 
+      "uid": "https://standardebooks.org/ebooks/c-j-cutcliffe-hyne/the-lost-continent", 
+      "subtitle": "C. J. Cutcliffe Hyne", 
+      "title": "The Lost Continent"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/daniel-defoe/a-journal-of-the-plague-year", 
+      "uid": "https://standardebooks.org/ebooks/daniel-defoe/a-journal-of-the-plague-year", 
+      "subtitle": "Daniel Defoe", 
+      "title": "A Journal of the Plague Year"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/david-lindsay/a-voyage-to-arcturus", 
+      "uid": "https://standardebooks.org/ebooks/david-lindsay/a-voyage-to-arcturus", 
+      "subtitle": "David Lindsay", 
+      "title": "A Voyage to Arcturus"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/d-h-lawrence/sons-and-lovers", 
+      "uid": "https://standardebooks.org/ebooks/d-h-lawrence/sons-and-lovers", 
+      "subtitle": "D. H. Lawrence", 
+      "title": "Sons and Lovers"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/edgar-allan-poe/the-narrative-of-arthur-gordon-pym-of-nantucket", 
+      "uid": "https://standardebooks.org/ebooks/edgar-allan-poe/the-narrative-of-arthur-gordon-pym-of-nantucket", 
+      "subtitle": "Edgar Allan Poe", 
+      "title": "The Narrative of Arthur Gordon Pym of Nantucket"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/edgar-rice-burroughs/a-princess-of-mars/frank-e-schoonover", 
+      "uid": "https://standardebooks.org/ebooks/edgar-rice-burroughs/a-princess-of-mars/frank-e-schoonover", 
+      "subtitle": "Edgar Rice Burroughs", 
+      "title": "A Princess of Mars"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/elizabeth-gaskell/cranford", 
+      "uid": "https://standardebooks.org/ebooks/elizabeth-gaskell/cranford", 
+      "subtitle": "Elizabeth Gaskell", 
+      "title": "Cranford"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/e-m-forster/a-room-with-a-view", 
+      "uid": "https://standardebooks.org/ebooks/e-m-forster/a-room-with-a-view", 
+      "subtitle": "E. M. Forster", 
+      "title": "A Room With a View"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/emile-zola/his-masterpiece/ernest-alfred-vizetelly", 
+      "uid": "https://standardebooks.org/ebooks/emile-zola/his-masterpiece/ernest-alfred-vizetelly", 
+      "subtitle": "\u00c9mile Zola", 
+      "title": "His Masterpiece"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/epictetus/the-enchiridion/elizabeth-carter", 
+      "uid": "https://standardebooks.org/ebooks/epictetus/the-enchiridion/elizabeth-carter", 
+      "subtitle": "Epictetus", 
+      "title": "The Enchiridion"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/erskine-childers/the-riddle-of-the-sands", 
+      "uid": "https://standardebooks.org/ebooks/erskine-childers/the-riddle-of-the-sands", 
+      "subtitle": "Erskine Childers", 
+      "title": "The Riddle of the Sands"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/e-t-a-hoffmann/master-flea/george-soane", 
+      "uid": "https://standardebooks.org/ebooks/e-t-a-hoffmann/master-flea/george-soane", 
+      "subtitle": "E. T. A. Hoffmann", 
+      "title": "Master Flea"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/ethel-voynich/the-gadfly", 
+      "uid": "https://standardebooks.org/ebooks/ethel-voynich/the-gadfly", 
+      "subtitle": "Ethel Voynich", 
+      "title": "The Gadfly"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/f-marion-crawford/khaled-a-tale-of-arabia", 
+      "uid": "https://standardebooks.org/ebooks/f-marion-crawford/khaled-a-tale-of-arabia", 
+      "subtitle": "F. Marion Crawford", 
+      "title": "Khaled: A Tale of Arabia"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/frances-hodgson-burnett/the-secret-garden", 
+      "uid": "https://standardebooks.org/ebooks/frances-hodgson-burnett/the-secret-garden", 
+      "subtitle": "Frances Hodgson Burnett", 
+      "title": "The Secret Garden"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/francisco-de-quevedo/pablo-de-segovia-the-spanish-sharper/pedro-pineda", 
+      "uid": "https://standardebooks.org/ebooks/francisco-de-quevedo/pablo-de-segovia-the-spanish-sharper/pedro-pineda", 
+      "subtitle": "Francisco de Quevedo", 
+      "title": "Pablo de Segovia, the Spanish Sharper"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/friedrich-nietzsche/beyond-good-and-evil/helen-zimmern", 
+      "uid": "https://standardebooks.org/ebooks/friedrich-nietzsche/beyond-good-and-evil/helen-zimmern", 
+      "subtitle": "Friedrich Nietzsche", 
+      "title": "Beyond Good and Evil"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/fritz-leiber/the-big-time", 
+      "uid": "https://standardebooks.org/ebooks/fritz-leiber/the-big-time", 
+      "subtitle": "Fritz Leiber", 
+      "title": "The Big Time"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/fyodor-dostoevsky/crime-and-punishment/constance-garnett", 
+      "uid": "https://standardebooks.org/ebooks/fyodor-dostoevsky/crime-and-punishment/constance-garnett", 
+      "subtitle": "Fyodor Dostoevsky", 
+      "title": "Crime and Punishment"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/george-macdonald/the-princess-and-the-goblin", 
+      "uid": "https://standardebooks.org/ebooks/george-macdonald/the-princess-and-the-goblin", 
+      "subtitle": "George MacDonald", 
+      "title": "The Princess and the Goblin"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/george-meredith/the-shaving-of-shagpat", 
+      "uid": "https://standardebooks.org/ebooks/george-meredith/the-shaving-of-shagpat", 
+      "subtitle": "George Meredith", 
+      "title": "The Shaving of Shagpat"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/g-k-chesterton/the-innocence-of-father-brown", 
+      "uid": "https://standardebooks.org/ebooks/g-k-chesterton/the-innocence-of-father-brown", 
+      "subtitle": "G. K. Chesterton", 
+      "title": "The Innocence of Father Brown"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/g-k-chesterton/the-man-who-was-thursday", 
+      "uid": "https://standardebooks.org/ebooks/g-k-chesterton/the-man-who-was-thursday", 
+      "subtitle": "G. K. Chesterton", 
+      "title": "The Man Who Was Thursday"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/g-k-chesterton/the-napoleon-of-notting-hill", 
+      "uid": "https://standardebooks.org/ebooks/g-k-chesterton/the-napoleon-of-notting-hill", 
+      "subtitle": "G. K. Chesterton", 
+      "title": "The Napoleon of Notting Hill"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/g-k-chesterton/the-wisdom-of-father-brown", 
+      "uid": "https://standardebooks.org/ebooks/g-k-chesterton/the-wisdom-of-father-brown", 
+      "subtitle": "G. K. Chesterton", 
+      "title": "The Wisdom of Father Brown"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/gustave-flaubert/madame-bovary/eleanor-marx-aveling", 
+      "uid": "https://standardebooks.org/ebooks/gustave-flaubert/madame-bovary/eleanor-marx-aveling", 
+      "subtitle": "Gustave Flaubert", 
+      "title": "Madame Bovary"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/h-beam-piper/little-fuzzy", 
+      "uid": "https://standardebooks.org/ebooks/h-beam-piper/little-fuzzy", 
+      "subtitle": "H. Beam Piper", 
+      "title": "Little Fuzzy"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/h-beam-piper/space-viking", 
+      "uid": "https://standardebooks.org/ebooks/h-beam-piper/space-viking", 
+      "subtitle": "H. Beam Piper", 
+      "title": "Space Viking"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/h-beam-piper/the-cosmic-computer", 
+      "uid": "https://standardebooks.org/ebooks/h-beam-piper/the-cosmic-computer", 
+      "subtitle": "H. Beam Piper", 
+      "title": "The Cosmic Computer"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/henry-david-thoreau/walden", 
+      "uid": "https://standardebooks.org/ebooks/henry-david-thoreau/walden", 
+      "subtitle": "Henry David Thoreau", 
+      "title": "Walden"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/henry-james/the-turn-of-the-screw", 
+      "uid": "https://standardebooks.org/ebooks/henry-james/the-turn-of-the-screw", 
+      "subtitle": "Henry James", 
+      "title": "The Turn of the Screw"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/hermann-hesse/siddhartha/gunther-olesch_anke-dreher_amy-coulter_stefan-langer_semyon-chaichenets", 
+      "uid": "https://standardebooks.org/ebooks/hermann-hesse/siddhartha/gunther-olesch_anke-dreher_amy-coulter_stefan-langer_semyon-chaichenets", 
+      "subtitle": "Hermann Hesse", 
+      "title": "Siddhartha"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/h-g-wells/the-time-machine", 
+      "uid": "https://standardebooks.org/ebooks/h-g-wells/the-time-machine", 
+      "subtitle": "H. G. Wells", 
+      "title": "The Time Machine"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/h-g-wells/the-war-of-the-worlds", 
+      "uid": "https://standardebooks.org/ebooks/h-g-wells/the-war-of-the-worlds", 
+      "subtitle": "H. G. Wells", 
+      "title": "The War of the Worlds"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/honore-de-balzac/father-goriot/ellen-marriage", 
+      "uid": "https://standardebooks.org/ebooks/honore-de-balzac/father-goriot/ellen-marriage", 
+      "subtitle": "Honor\u00e9 de Balzac", 
+      "title": "Father Goriot"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/horace-walpole/the-castle-of-otranto", 
+      "uid": "https://standardebooks.org/ebooks/horace-walpole/the-castle-of-otranto", 
+      "subtitle": "Horace Walpole", 
+      "title": "The Castle of Otranto"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/jack-london/lost-face", 
+      "uid": "https://standardebooks.org/ebooks/jack-london/lost-face", 
+      "subtitle": "Jack London", 
+      "title": "Lost Face"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/jack-london/the-call-of-the-wild", 
+      "uid": "https://standardebooks.org/ebooks/jack-london/the-call-of-the-wild", 
+      "subtitle": "Jack London", 
+      "title": "The Call of the Wild"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/jack-london/white-fang", 
+      "uid": "https://standardebooks.org/ebooks/jack-london/white-fang", 
+      "subtitle": "Jack London", 
+      "title": "White Fang"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/james-de-mille/a-strange-manuscript-found-in-a-copper-cylinder", 
+      "uid": "https://standardebooks.org/ebooks/james-de-mille/a-strange-manuscript-found-in-a-copper-cylinder", 
+      "subtitle": "James De Mille", 
+      "title": "A Strange Manuscript Found in a Copper Cylinder"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/james-fenimore-cooper/the-last-of-the-mohicans", 
+      "uid": "https://standardebooks.org/ebooks/james-fenimore-cooper/the-last-of-the-mohicans", 
+      "subtitle": "James Fenimore Cooper", 
+      "title": "The Last of the Mohicans"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/james-joyce/dubliners", 
+      "uid": "https://standardebooks.org/ebooks/james-joyce/dubliners", 
+      "subtitle": "James Joyce", 
+      "title": "Dubliners"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/jane-austen/pride-and-prejudice", 
+      "uid": "https://standardebooks.org/ebooks/jane-austen/pride-and-prejudice", 
+      "subtitle": "Jane Austen", 
+      "title": "Pride and Prejudice"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/jerome-k-jerome/three-men-in-a-boat", 
+      "uid": "https://standardebooks.org/ebooks/jerome-k-jerome/three-men-in-a-boat", 
+      "subtitle": "Jerome K. Jerome", 
+      "title": "Three Men in a Boat"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/john-stuart-mill/on-liberty", 
+      "uid": "https://standardebooks.org/ebooks/john-stuart-mill/on-liberty", 
+      "subtitle": "John Stuart Mill", 
+      "title": "On Liberty"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/joseph-conrad/heart-of-darkness", 
+      "uid": "https://standardebooks.org/ebooks/joseph-conrad/heart-of-darkness", 
+      "subtitle": "Joseph Conrad", 
+      "title": "Heart of Darkness"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/joseph-conrad/the-secret-agent", 
+      "uid": "https://standardebooks.org/ebooks/joseph-conrad/the-secret-agent", 
+      "subtitle": "Joseph Conrad", 
+      "title": "The Secret Agent"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/jules-verne/around-the-world-in-eighty-days/george-makepeace-towle", 
+      "uid": "https://standardebooks.org/ebooks/jules-verne/around-the-world-in-eighty-days/george-makepeace-towle", 
+      "subtitle": "Jules Verne", 
+      "title": "Around the World In Eighty Days"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/jules-verne/the-mysterious-island/stephen-w-white", 
+      "uid": "https://standardebooks.org/ebooks/jules-verne/the-mysterious-island/stephen-w-white", 
+      "subtitle": "Jules Verne", 
+      "title": "The Mysterious Island"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/jules-verne/twenty-thousand-leagues-under-the-seas/f-p-walter", 
+      "uid": "https://standardebooks.org/ebooks/jules-verne/twenty-thousand-leagues-under-the-seas/f-p-walter", 
+      "subtitle": "Jules Verne", 
+      "title": "Twenty Thousand Leagues Under the Seas"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/j-w-von-goethe/the-sorrows-of-young-werther/r-d-boylan", 
+      "uid": "https://standardebooks.org/ebooks/j-w-von-goethe/the-sorrows-of-young-werther/r-d-boylan", 
+      "subtitle": "J. W. von Goethe", 
+      "title": "The Sorrows of Young Werther"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/kenneth-grahame/the-wind-in-the-willows", 
+      "uid": "https://standardebooks.org/ebooks/kenneth-grahame/the-wind-in-the-willows", 
+      "subtitle": "Kenneth Grahame", 
+      "title": "The Wind in the Willows"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/laozi/tao-te-ching/james-legge", 
+      "uid": "https://standardebooks.org/ebooks/laozi/tao-te-ching/james-legge", 
+      "subtitle": "Laozi", 
+      "title": "Tao Te Ching"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/leo-tolstoy/a-confession/aylmer-maude_louise-maude", 
+      "uid": "https://standardebooks.org/ebooks/leo-tolstoy/a-confession/aylmer-maude_louise-maude", 
+      "subtitle": "Leo Tolstoy", 
+      "title": "A Confession"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/leo-tolstoy/the-kingdom-of-god-is-within-you/leo-wiener", 
+      "uid": "https://standardebooks.org/ebooks/leo-tolstoy/the-kingdom-of-god-is-within-you/leo-wiener", 
+      "subtitle": "Leo Tolstoy", 
+      "title": "The Kingdom of God Is Within You"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/lewis-carroll/alices-adventures-in-wonderland", 
+      "uid": "https://standardebooks.org/ebooks/lewis-carroll/alices-adventures-in-wonderland", 
+      "subtitle": "Lewis Carroll", 
+      "title": "Alice's Adventures in Wonderland"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/lord-dunsany/the-book-of-wonder/sidney-h-sime", 
+      "uid": "https://standardebooks.org/ebooks/lord-dunsany/the-book-of-wonder/sidney-h-sime", 
+      "subtitle": "Lord Dunsany", 
+      "title": "The Book of Wonder"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/lord-dunsany/the-gods-of-pegana", 
+      "uid": "https://standardebooks.org/ebooks/lord-dunsany/the-gods-of-pegana", 
+      "subtitle": "Lord Dunsany", 
+      "title": "The Gods of Peg\u0101na"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/louisa-may-alcott/little-women", 
+      "uid": "https://standardebooks.org/ebooks/louisa-may-alcott/little-women", 
+      "subtitle": "Louisa May Alcott", 
+      "title": "Little Women"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/marcus-aurelius/meditations/george-long", 
+      "uid": "https://standardebooks.org/ebooks/marcus-aurelius/meditations/george-long", 
+      "subtitle": "Marcus Aurelius", 
+      "title": "Meditations"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/mark-twain/a-connecticut-yankee-in-king-arthurs-court", 
+      "uid": "https://standardebooks.org/ebooks/mark-twain/a-connecticut-yankee-in-king-arthurs-court", 
+      "subtitle": "Mark Twain", 
+      "title": "A Connecticut Yankee in King Arthur's Court"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/mark-twain/the-adventures-of-huckleberry-finn", 
+      "uid": "https://standardebooks.org/ebooks/mark-twain/the-adventures-of-huckleberry-finn", 
+      "subtitle": "Mark Twain", 
+      "title": "The Adventures of Huckleberry Finn"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/mary-shelley/frankenstein", 
+      "uid": "https://standardebooks.org/ebooks/mary-shelley/frankenstein", 
+      "subtitle": "Mary Shelley", 
+      "title": "Frankenstein"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/max-beerbohm/zuleika-dobson", 
+      "uid": "https://standardebooks.org/ebooks/max-beerbohm/zuleika-dobson", 
+      "subtitle": "Max Beerbohm", 
+      "title": "Zuleika Dobson"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/miguel-de-cervantes-saavedra/don-quixote/john-ormsby", 
+      "uid": "https://standardebooks.org/ebooks/miguel-de-cervantes-saavedra/don-quixote/john-ormsby", 
+      "subtitle": "Miguel de Cervantes Saavedra", 
+      "title": "Don Quixote"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/niccolo-machiavelli/the-prince/w-k-marriott", 
+      "uid": "https://standardebooks.org/ebooks/niccolo-machiavelli/the-prince/w-k-marriott", 
+      "subtitle": "Niccol\u00f2 Machiavelli", 
+      "title": "The Prince"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/nikolai-gogol/dead-souls/d-j-hogarth", 
+      "uid": "https://standardebooks.org/ebooks/nikolai-gogol/dead-souls/d-j-hogarth", 
+      "subtitle": "Nikolai Gogol", 
+      "title": "Dead Souls"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/omar-khayyam/the-rubaiyat-of-omar-khayyam/edward-fitzgerald/edmund-dulac", 
+      "uid": "https://standardebooks.org/ebooks/omar-khayyam/the-rubaiyat-of-omar-khayyam/edward-fitzgerald/edmund-dulac", 
+      "subtitle": "Omar Khayy\u00e1m", 
+      "title": "The Rub\u00e1iy\u00e1t of Omar Khayy\u00e1m"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/oscar-wilde/the-importance-of-being-earnest", 
+      "uid": "https://standardebooks.org/ebooks/oscar-wilde/the-importance-of-being-earnest", 
+      "subtitle": "Oscar Wilde", 
+      "title": "The Importance of Being Earnest"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/oscar-wilde/the-picture-of-dorian-gray", 
+      "uid": "https://standardebooks.org/ebooks/oscar-wilde/the-picture-of-dorian-gray", 
+      "subtitle": "Oscar Wilde", 
+      "title": "The Picture of Dorian Gray"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/p-g-wodehouse/right-ho-jeeves", 
+      "uid": "https://standardebooks.org/ebooks/p-g-wodehouse/right-ho-jeeves", 
+      "subtitle": "P. G. Wodehouse", 
+      "title": "Right Ho, Jeeves"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/philip-francis-nowlan/armageddon-2419-a-d", 
+      "uid": "https://standardebooks.org/ebooks/philip-francis-nowlan/armageddon-2419-a-d", 
+      "subtitle": "Philip Francis Nowlan", 
+      "title": "Armageddon 2419 A.D."
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/philip-k-dick/short-fiction", 
+      "uid": "https://standardebooks.org/ebooks/philip-k-dick/short-fiction", 
+      "subtitle": "Philip K. Dick", 
+      "title": "Short Fiction"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/p-t-barnum/the-art-of-money-getting", 
+      "uid": "https://standardebooks.org/ebooks/p-t-barnum/the-art-of-money-getting", 
+      "subtitle": "P. T. Barnum", 
+      "title": "The Art of Money Getting"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/rabindranath-tagore/gitanjali", 
+      "uid": "https://standardebooks.org/ebooks/rabindranath-tagore/gitanjali", 
+      "subtitle": "Rabindranath Tagore", 
+      "title": "Gitanjali"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/rafael-sabatini/scaramouche", 
+      "uid": "https://standardebooks.org/ebooks/rafael-sabatini/scaramouche", 
+      "subtitle": "Rafael Sabatini", 
+      "title": "Scaramouche"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/robert-frost/north-of-boston", 
+      "uid": "https://standardebooks.org/ebooks/robert-frost/north-of-boston", 
+      "subtitle": "Robert Frost", 
+      "title": "North of Boston"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/robert-louis-stevenson/the-strange-case-of-dr-jekyll-and-mr-hyde", 
+      "uid": "https://standardebooks.org/ebooks/robert-louis-stevenson/the-strange-case-of-dr-jekyll-and-mr-hyde", 
+      "subtitle": "Robert Louis Stevenson", 
+      "title": "The Strange Case of Dr. Jekyll and Mr. Hyde"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/robert-louis-stevenson/treasure-island/milo-winter", 
+      "uid": "https://standardebooks.org/ebooks/robert-louis-stevenson/treasure-island/milo-winter", 
+      "subtitle": "Robert Louis Stevenson", 
+      "title": "Treasure Island"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/robert-w-chambers/the-king-in-yellow", 
+      "uid": "https://standardebooks.org/ebooks/robert-w-chambers/the-king-in-yellow", 
+      "subtitle": "Robert W. Chambers", 
+      "title": "The King in Yellow"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/rudolph-erich-raspe/the-surprising-adventures-of-baron-munchausen", 
+      "uid": "https://standardebooks.org/ebooks/rudolph-erich-raspe/the-surprising-adventures-of-baron-munchausen", 
+      "subtitle": "Rudolph Erich Raspe", 
+      "title": "The Surprising Adventures of Baron Munchausen"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/rudyard-kipling/the-jungle-book", 
+      "uid": "https://standardebooks.org/ebooks/rudyard-kipling/the-jungle-book", 
+      "subtitle": "Rudyard Kipling", 
+      "title": "The Jungle Book"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/samuel-johnson/the-history-of-rasselas-prince-of-abyssinia", 
+      "uid": "https://standardebooks.org/ebooks/samuel-johnson/the-history-of-rasselas-prince-of-abyssinia", 
+      "subtitle": "Samuel Johnson", 
+      "title": "The History of Rasselas, Prince of Abyssinia"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/sax-rohmer/the-insidious-dr-fu-manchu", 
+      "uid": "https://standardebooks.org/ebooks/sax-rohmer/the-insidious-dr-fu-manchu", 
+      "subtitle": "Sax Rohmer", 
+      "title": "The Insidious Dr. Fu-Manchu"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/selma-lagerlof/the-wonderful-adventures-of-nils/velma-swanston-howard", 
+      "uid": "https://standardebooks.org/ebooks/selma-lagerlof/the-wonderful-adventures-of-nils/velma-swanston-howard", 
+      "subtitle": "Selma Lagerl\u00f6f", 
+      "title": "The Wonderful Adventures of Nils"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart", 
+      "uid": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart", 
+      "subtitle": "Seneca", 
+      "title": "Dialogues"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/sir-arthur-conan-doyle/the-lost-world", 
+      "uid": "https://standardebooks.org/ebooks/sir-arthur-conan-doyle/the-lost-world", 
+      "subtitle": "Sir Arthur Conan Doyle", 
+      "title": "The Lost World"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/stanley-g-weinbaum/short-fiction", 
+      "uid": "https://standardebooks.org/ebooks/stanley-g-weinbaum/short-fiction", 
+      "subtitle": "Stanley G. Weinbaum", 
+      "title": "Short Fiction"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/thomas-carlyle/sartor-resartus", 
+      "uid": "https://standardebooks.org/ebooks/thomas-carlyle/sartor-resartus", 
+      "subtitle": "Thomas Carlyle", 
+      "title": "Sartor Resartus"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/thomas-de-quincey/confessions-of-an-english-opium-eater", 
+      "uid": "https://standardebooks.org/ebooks/thomas-de-quincey/confessions-of-an-english-opium-eater", 
+      "subtitle": "Thomas De Quincey", 
+      "title": "Confessions of an English Opium-Eater"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/thomas-de-quincey/suspiria-de-profundis", 
+      "uid": "https://standardebooks.org/ebooks/thomas-de-quincey/suspiria-de-profundis", 
+      "subtitle": "Thomas De Quincey", 
+      "title": "Suspiria de Profundis"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/upton-sinclair/the-jungle", 
+      "uid": "https://standardebooks.org/ebooks/upton-sinclair/the-jungle", 
+      "subtitle": "Upton Sinclair", 
+      "title": "The Jungle"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/voltaire/candide/the-modern-library", 
+      "uid": "https://standardebooks.org/ebooks/voltaire/candide/the-modern-library", 
+      "subtitle": "Voltaire", 
+      "title": "Candide"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/wilkie-collins/no-name", 
+      "uid": "https://standardebooks.org/ebooks/wilkie-collins/no-name", 
+      "subtitle": "Wilkie Collins", 
+      "title": "No Name"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/william-hazlitt/table-talk", 
+      "uid": "https://standardebooks.org/ebooks/william-hazlitt/table-talk", 
+      "subtitle": "William Hazlitt", 
+      "title": "Table-Talk"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/william-hope-hodgson/the-house-on-the-borderland", 
+      "uid": "https://standardebooks.org/ebooks/william-hope-hodgson/the-house-on-the-borderland", 
+      "subtitle": "William Hope Hodgson", 
+      "title": "The House on the Borderland"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/william-makepeace-thackeray/the-luck-of-barry-lyndon", 
+      "uid": "https://standardebooks.org/ebooks/william-makepeace-thackeray/the-luck-of-barry-lyndon", 
+      "subtitle": "William Makepeace Thackeray", 
+      "title": "The Luck of Barry Lyndon"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/william-makepeace-thackeray/vanity-fair", 
+      "uid": "https://standardebooks.org/ebooks/william-makepeace-thackeray/vanity-fair", 
+      "subtitle": "William Makepeace Thackeray", 
+      "title": "Vanity Fair"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/william-morris/the-wood-beyond-the-world", 
+      "uid": "https://standardebooks.org/ebooks/william-morris/the-wood-beyond-the-world", 
+      "subtitle": "William Morris", 
+      "title": "The Wood Beyond the World"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/william-wollaston/the-religion-of-nature-delineated", 
+      "uid": "https://standardebooks.org/ebooks/william-wollaston/the-religion-of-nature-delineated", 
+      "subtitle": "William Wollaston", 
+      "title": "The Religion of Nature Delineated"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/william-wordsworth_samuel-taylor-coleridge/lyrical-ballads", 
+      "uid": "https://standardebooks.org/ebooks/william-wordsworth_samuel-taylor-coleridge/lyrical-ballads", 
+      "subtitle": "William Wordsworth", 
+      "title": "Lyrical Ballads"
+    }, 
+    {
+      "arg": "https://standardebooks.org/ebooks/w-w-jacobs/the-lady-of-the-barge/maurice-greiffenhagen", 
+      "uid": "https://standardebooks.org/ebooks/w-w-jacobs/the-lady-of-the-barge/maurice-greiffenhagen", 
+      "subtitle": "W. W. Jacobs", 
+      "title": "The Lady of the Barge"
+    }
+  ]
+}
