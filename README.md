@@ -30,7 +30,7 @@ You would replace it with:
 # export user query to `query` environment variable, so `fuzzy.py` can read it
 export query="$1"
 # or if you're using "with input as {query}"
-# export query="{query}" #
+# export query="{query}"
 
 # call your original script via `fuzzy.py`
 ./fuzzy.py /usr/bin/python myscript.py
