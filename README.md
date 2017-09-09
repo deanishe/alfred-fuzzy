@@ -4,6 +4,7 @@ Fuzzy search for Alfred 3
 
 `fuzzy.py` is a helper script for Alfred 3 Script Filters that replaces the "Alfred filters results" option with fuzzy search (Alfred uses "word starts with").
 
+![](./demo.gif "")
 
 How it works
 ------------
