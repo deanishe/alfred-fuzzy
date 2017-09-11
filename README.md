@@ -73,10 +73,10 @@ Export different values for the following environment variables before calling `
 |---------------------|---------|-----------------------------------------------|
 | `adj_bonus`         |       5 | Bonus for adjacent matches                    |
 | `camel_bonus`       |      10 | Bonus if match is uppercase                   |
+| `sep_bonus`         |      10 | Bonus if after a separator                    |
 | `unmatched_penalty` |      -1 | Penalty for each unmatched character          |
 | `lead_penalty`      |      -3 | Penalty for each character before first match |
 | `max_lead_penalty`  |      -9 | Maximum total `lead_penalty`                  |
-| `sep_bonus`         |      10 | Bonus if after a separator                    |
 
 
 Thanks
