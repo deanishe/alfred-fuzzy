@@ -49,7 +49,7 @@ Grab the [Fuzzy-Demo.alfredworkflow][demo] file from this repo to try out the se
 Caveats
 -------
 
-Fuzzy search, and this implementation in particular, are by no means the "search algorithm to end all algorithms"
+Fuzzy search, and this implementation in particular, are by no means the "search algorithm to end all algorithms".
 
 
 ### Performance
