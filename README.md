@@ -46,12 +46,24 @@ Demo
 Grab the [Fuzzy-Demo.alfredworkflow][demo] file from this repo to try out the search and view an example implementation.
 
 
-Performance
------------
+Caveats
+-------
+
+Fuzzy search, and this implementation in particular, are by no means the "search algorithm to end all algorithms"
+
+
+### Performance
 
 By dint of being written in Python and using a more complex algorithm, `fuzzy.py` can only comfortably handle a small fraction of the number of results that Alfred's native search can. On my 2012 MBA, it becomes noticeably, but not annoyingly, sluggist at about ~2500 items.
 
 If the script is well-received, I'll reimplement it in a compiled language. My [Go library for Alfred workflows][awgo] uses the same algorithm, and can comfortably handle 20K+ items.
+
+
+### Utility
+
+Fuzzy search is awesome for some datasets, but fairly sucks for others. It can work very, very well when you only want to search one field, such as name/title or filename/filepath, but it tends to provide sub-optimal results when searching across multiple fields, especially keywords/tags.
+
+In such cases, you'll usually get better results from a word-based search.
 
 
 Technical details
