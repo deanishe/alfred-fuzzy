@@ -217,7 +217,7 @@ The script replaces the option "Alfred filters results" with a fuzzy search.</st
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>0.1</string>
+	<string>0.2</string>
 	<key>webaddress</key>
 	<string>https://github.com/deanishe/alfred-fuzzy</string>
 </dict>

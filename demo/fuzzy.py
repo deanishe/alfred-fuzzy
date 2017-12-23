@@ -44,6 +44,9 @@ from unicodedata import normalize
 # Name of workflow variable storing session ID
 SID = 'fuzzy_session_id'
 
+# Workflow's cache directory
+CACHEDIR = os.getenv('alfred_workflow_cache')
+
 # Bonus for adjacent matches
 adj_bonus = int(os.getenv('adj_bonus') or '5')
 # Bonus if match is uppercase
@@ -116,9 +119,12 @@ class Fuzzy(object):
     def filter_feedback(self, fb, query):
         """Filter feedback dict.
 
-        The titles of ``items`` in feedback dict are compared against
-        ``query``. Items that don't match are removed and the remainder
+        The ``items`` in feedback dict are compared with ``query``.
+        Items that don't match are removed and the remainder
         are sorted by best match.
+
+        If the ``match`` field is set on items, that is used, otherwise
+        the items' ``title`` fields are used.
 
         Args:
             fb (dict): Parsed Alfred feedback JSON
@@ -131,11 +137,12 @@ class Fuzzy(object):
         items = []
 
         for it in fb['items']:
-            title = it['title']
+            # use `match` field by preference; fallback to `title`
+            terms = it['match'] if 'match' in it else it['title']
             if fold:
-                title = fold_diacritics(title)
+                terms = fold_diacritics(terms)
 
-            ok, score = self.match(query, title)
+            ok, score = self.match(query, terms)
             if not ok:
                 continue
 
@@ -146,23 +153,24 @@ class Fuzzy(object):
         return fb
 
     # https://gist.github.com/menzenski/f0f846a254d269bd567e2160485f4b89
-    def match(self, query, instring):
+    def match(self, query, terms):
         """Return match boolean and match score.
 
         Args:
             query (str): Query to match against
-            instring (str): String to score against query
+            terms (str): String to score against query
 
         Returns:
-            tuple: (match, score) where ``match`` is `True`/`False` and
-                ``score`` is a `float`. The higher the score, the better
-                the match.s
+            (bool, float): Whether ``terms`` matches ``query`` at all
+                and a match score. The higher the score, the better
+                the match.
         """
-        # cache results
-        key = (query, instring)
+        # Check in-memory cache for previous match
+        key = (query, terms)
         if key in self._cache:
             return self._cache[key]
 
+        # Scoring bonuses
         adj_bonus = self.adj_bonus
         sep_bonus = self.sep_bonus
         camel_bonus = self.camel_bonus
@@ -170,7 +178,7 @@ class Fuzzy(object):
         max_lead_penalty = self.max_lead_penalty
         unmatched_penalty = self.unmatched_penalty
 
-        score, q_idx, s_idx, q_len, s_len = 0, 0, 0, len(query), len(instring)
+        score, q_idx, s_idx, q_len, s_len = 0, 0, 0, len(query), len(terms)
         prev_match, prev_lower = False, False
         prev_sep = True  # so that matching first letter gets sep_bonus
         best_letter, best_lower, best_letter_idx = None, None, None
@@ -179,7 +187,7 @@ class Fuzzy(object):
 
         while s_idx != s_len:
             p_char = query[q_idx] if (q_idx != q_len) else None
-            s_char = instring[s_idx]
+            s_char = terms[s_idx]
             p_lower = p_char.lower() if p_char else None
             s_lower, s_upper = s_char.lower(), s_char.upper()
 
@@ -245,7 +253,8 @@ class Fuzzy(object):
             matched_indices.append(best_letter_idx)
 
         res = (q_idx == q_len, score)
-        self._cache[key] = res
+        self._cache[key] = res  # cache score
+
         return res
 
 
@@ -259,9 +268,9 @@ class Cache(object):
     """
 
     def __init__(self, cmd):
+        """Create new cache for a command."""
         self.cmd = cmd
-        self.cache_dir = os.path.join(os.getenv('alfred_workflow_cache'),
-                                      '_fuzzy')
+        self.cache_dir = os.path.join(CACHEDIR, '_fuzzy')
         self._cache_path = None
         self._session_id = None
         self._from_cache = False
@@ -350,12 +359,12 @@ def main():
 
     if query:
         query = decode(query)
-        fz = Fuzzy()
-        fz.filter_feedback(fb, query)
+        Fuzzy().filter_feedback(fb, query)
+
         log('%d item(s) match %r', len(fb['items']), query)
 
     json.dump(fb, sys.stdout)
-    log('fuzzy filtered in %0.2fs', time.time() - start)
+    log('filtered in %0.2fs', time.time() - start)
 
 
 if __name__ == '__main__':
