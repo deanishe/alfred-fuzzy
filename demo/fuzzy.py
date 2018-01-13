@@ -42,7 +42,7 @@ import time
 from unicodedata import normalize
 
 # Name of workflow variable storing session ID
-SID = 'fuzzy_session_id'
+SID = os.getenv('session_var') or 'fuzzy_session_id'
 
 # Workflow's cache directory
 CACHEDIR = os.getenv('alfred_workflow_cache')
@@ -59,6 +59,8 @@ max_lead_penalty = int(os.getenv('max_lead_penalty') or '-9')
 sep_bonus = int(os.getenv('sep_bonus') or '10')
 # Penalty for each unmatched character
 unmatched_penalty = int(os.getenv('unmatched_penalty') or '-1')
+# Characters considered word separators
+separators = os.getenv('separators') or '_-.([/ '
 
 
 def log(s, *args):
@@ -100,6 +102,7 @@ class Fuzzy(object):
         lead_penalty (int): Penalty for each character before first match
         max_lead_penalty (int): Max total ``lead_penalty``
         sep_bonus (int): Bonus if after a separator
+        separators (str): Characters to consider separators
         unmatched_penalty (int): Penalty for each unmatched character
 
     """
@@ -107,13 +110,15 @@ class Fuzzy(object):
     def __init__(self, adj_bonus=adj_bonus, sep_bonus=sep_bonus,
                  camel_bonus=camel_bonus, lead_penalty=lead_penalty,
                  max_lead_penalty=max_lead_penalty,
-                 unmatched_penalty=unmatched_penalty):
+                 unmatched_penalty=unmatched_penalty,
+                 separators=separators):
         self.adj_bonus = adj_bonus
         self.sep_bonus = sep_bonus
         self.camel_bonus = camel_bonus
         self.lead_penalty = lead_penalty
         self.max_lead_penalty = max_lead_penalty
         self.unmatched_penalty = unmatched_penalty
+        self.separators = separators
         self._cache = {}
 
     def filter_feedback(self, fb, query):
@@ -177,17 +182,18 @@ class Fuzzy(object):
         lead_penalty = self.lead_penalty
         max_lead_penalty = self.max_lead_penalty
         unmatched_penalty = self.unmatched_penalty
+        separators = self.separators
 
-        score, q_idx, s_idx, q_len, s_len = 0, 0, 0, len(query), len(terms)
+        score, q_idx, t_idx, q_len, t_len = 0, 0, 0, len(query), len(terms)
         prev_match, prev_lower = False, False
         prev_sep = True  # so that matching first letter gets sep_bonus
         best_letter, best_lower, best_letter_idx = None, None, None
         best_letter_score = 0
         matched_indices = []
 
-        while s_idx != s_len:
+        while t_idx != t_len:
             p_char = query[q_idx] if (q_idx != q_len) else None
-            s_char = terms[s_idx]
+            s_char = terms[t_idx]
             p_lower = p_char.lower() if p_char else None
             s_lower, s_upper = s_char.lower(), s_char.upper()
 
@@ -209,7 +215,7 @@ class Fuzzy(object):
                 # apply penalty for each letter before the first match
                 # using max because penalties are negative (so max = smallest)
                 if q_idx == 0:
-                    score += max(s_idx * lead_penalty, max_lead_penalty)
+                    score += max(t_idx * lead_penalty, max_lead_penalty)
 
                 # apply bonus for consecutive matches
                 if prev_match:
@@ -223,7 +229,7 @@ class Fuzzy(object):
                 if prev_lower and s_char == s_upper and s_lower != s_upper:
                     new_score += camel_bonus
 
-                # update query index iff the next query letter was matched
+                # update query index if the next query letter was matched
                 if next_match:
                     q_idx += 1
 
@@ -234,7 +240,7 @@ class Fuzzy(object):
                         score += unmatched_penalty
                     best_letter = s_char
                     best_lower = best_letter.lower()
-                    best_letter_idx = s_idx
+                    best_letter_idx = t_idx
                     best_letter_score = new_score
 
                 prev_match = True
@@ -244,9 +250,9 @@ class Fuzzy(object):
                 prev_match = False
 
             prev_lower = s_char == s_lower and s_lower != s_upper
-            prev_sep = s_char in '_ '
+            prev_sep = s_char in separators
 
-            s_idx += 1
+            t_idx += 1
 
         if best_letter:
             score += best_letter_score

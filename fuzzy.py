@@ -42,7 +42,7 @@ import time
 from unicodedata import normalize
 
 # Name of workflow variable storing session ID
-SID = 'fuzzy_session_id'
+SID = os.getenv('session_var') or 'fuzzy_session_id'
 
 # Workflow's cache directory
 CACHEDIR = os.getenv('alfred_workflow_cache')
@@ -95,7 +95,7 @@ def decode(s):
 
 class Fuzzy(object):
     """Fuzzy comparison of strings.
-    
+
     Attributes:
         adj_bonus (int): Bonus for adjacent matches
         camel_bonus (int): Bonus if match is uppercase
@@ -104,7 +104,7 @@ class Fuzzy(object):
         sep_bonus (int): Bonus if after a separator
         separators (str): Characters to consider separators
         unmatched_penalty (int): Penalty for each unmatched character
-    
+
     """
 
     def __init__(self, adj_bonus=adj_bonus, sep_bonus=sep_bonus,

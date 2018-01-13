@@ -6,6 +6,22 @@ Fuzzy search for Alfred 3
 
 ![](./demo.gif "")
 
+<!-- MarkdownTOC autolink="true" bracket="round" depth="3" autoanchor="true" -->
+
+- [How it works](#how-it-works)
+- [Example usage](#example-usage)
+- [Demo](#demo)
+- [Caveats](#caveats)
+    - [Performance](#performance)
+    - [Utility](#utility)
+- [Technical details](#technical-details)
+- [Customisation](#customisation)
+    - [Multiple Script Filters](#multiple-script-filters)
+- [Thanks](#thanks)
+
+<!-- /MarkdownTOC -->
+
+<a name="how-it-works"></a>
 How it works
 ------------
 
@@ -14,6 +30,7 @@ Instead of calling your script directly, you call it via `fuzzy.py`, which cache
 The query is compared to each item's `matches` field if it's present, and against the item's `title` field if not.
 
 
+<a name="example-usage"></a>
 Example usage
 -------------
 
@@ -42,18 +59,21 @@ export query="$1"
 **Note**: Don't forget to turn off "Alfred filters results"!
 
 
+<a name="demo"></a>
 Demo
 ----
 
 Grab the [Fuzzy-Demo.alfredworkflow][demo] file from this repo to try out the search and view an example implementation.
 
 
+<a name="caveats"></a>
 Caveats
 -------
 
 Fuzzy search, and this implementation in particular, are by no means the "search algorithm to end all algorithms".
 
 
+<a name="performance"></a>
 ### Performance ###
 
 By dint of being written in Python and using a more complex algorithm, `fuzzy.py` can only comfortably handle a small fraction of the number of results that Alfred's native search can. On my 2012 MBA, it becomes noticeably, but not annoyingly, sluggist at about ~2500 items.
@@ -61,6 +81,7 @@ By dint of being written in Python and using a more complex algorithm, `fuzzy.py
 If the script is well-received, I'll reimplement it in a compiled language. My [Go library for Alfred workflows][awgo] uses the same algorithm, and can comfortably handle 20K+ items.
 
 
+<a name="utility"></a>
 ### Utility ###
 
 Fuzzy search is awesome for some datasets, but fairly sucks for others. It can work very, very well when you only want to search one field, such as name/title or filename/filepath, but it tends to provide sub-optimal results when searching across multiple fields, especially keywords/tags.
@@ -68,6 +89,7 @@ Fuzzy search is awesome for some datasets, but fairly sucks for others. It can w
 In such cases, you'll usually get better results from a word-based search.
 
 
+<a name="technical-details"></a>
 Technical details
 -----------------
 
@@ -76,6 +98,7 @@ The fuzzy algorithm is taken from [this gist][pyversion] by [@menzenski][menzens
 The only addition is smarter handling of non-ASCII. If the user's query contains only ASCII, the search is diacritic-insensitive. If the query contains non-ASCII, the search considers diacritics.
 
 
+<a name="customisation"></a>
 Customisation
 -------------
 
@@ -94,6 +117,23 @@ Export different values for the following environment variables before calling `
 | `separators`        | `_-.([/ ` | Characters to consider separators (for the purposes of assigning `sep_bonus`)                                              |
 
 
+<a name="multiple-script-filters"></a>
+### Multiple Script Filters ###
+
+If you're using multiple Script Filters chained together that use different datasets, you'll need to set the `session_var` environment variable to ensure each one uses a separate cache:
+
+```bash
+# Script Filter 1
+export query="$1"
+./fuzzy /usr/bin/python myscript.py
+
+# Script Filter 2 (downstream of 1)
+export query="$1"
+export session_var="fuzzy_filter2"
+./fuzzy /usr/bin/python myotherscript.py
+```
+
+<a name="thanks"></a>
 Thanks
 ------
 
