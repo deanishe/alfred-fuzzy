@@ -30,7 +30,7 @@ Your script will be run once per session (while the user is using your
 workflow) to retrieve and cache all items, then the items are filtered
 against the user query using a fuzzy matching algorithm.
 
-Items are filtered on their `matches` field if present, otherwise on
+Items are filtered on their `match` field if present, otherwise on
 their `title` field.
 
 """
