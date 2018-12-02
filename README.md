@@ -27,7 +27,7 @@ How it works
 
 Instead of calling your script directly, you call it via `fuzzy.py`, which caches your script's output for the duration of the user session (as long as the user is using your workflow), and filters the items emitted by your script against the user's query using a fuzzy algorithm.
 
-The query is compared to each item's `matches` field if it's present, and against the item's `title` field if not.
+The query is compared to each item's `match` field if it's present, and against the item's `title` field if not.
 
 
 <a name="example-usage"></a>
