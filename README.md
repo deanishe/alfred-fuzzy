@@ -1,8 +1,8 @@
 
-Fuzzy search for Alfred 3
-=========================
+Fuzzy search for Alfred
+=======================
 
-`fuzzy.py` is a helper script for Alfred 3 Script Filters that replaces the "Alfred filters results" option with fuzzy search (Alfred uses "word starts with").
+`fuzzy.py` is a helper script for Alfred 3+ Script Filters that replaces the "Alfred filters results" option with fuzzy search (Alfred uses "word starts with").
 
 ![](./demo.gif "")
 
